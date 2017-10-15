@@ -1,0 +1,35 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box; }
+
+html {
+  background-color: #9DC8C8; }
+
+h1 {
+  color: #566270;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 20px; }
+
+/* 2. Content ================================= */
+code {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 0.8em;
+  opacity: 0.1; }
+
+/*# sourceMappingURL=main.css.map */
