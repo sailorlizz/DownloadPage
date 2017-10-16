@@ -16,13 +16,14 @@ TABLE OF CONTENTS:
   box-sizing: border-box; }
 
 html {
-  background-color: #9DC8C8; }
+  background-image: url(.img/Logolightblue.png); }
 
 h1 {
   color: #566270;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: center;
-  padding: 20px; }
+  padding: 20px;
+  font-family: "Questiral", sans-serif; }
 
 /* 2. Content ================================= */
 code {

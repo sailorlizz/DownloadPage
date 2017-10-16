@@ -13,7 +13,7 @@ TABLE OF CONTENTS:
 */
 
 
-
+$font-stack: 'Questiral', sans-serif;
 
 /* 1. Main Layout ================================= */
 
@@ -23,19 +23,32 @@ TABLE OF CONTENTS:
 
 
 html{
-	background-color: #9DC8C8;
+	background-color:#E0E3DA;
+
+
 }
 
+header{
+	display:inline;
+	width:100%;
+}
+
+.logo{
+	background-image:url('.img/Logolightblue.png');
+	height:500px; 
+	width:100%;
+
+}
 
 body {
 	
-}
 
 h1{
 	color:#566270;
-	font-size:1.2em;
+	font-size:1.5em;
 	text-align:center;
 	padding:20px;
+	font-family:$font-stack;
 
 }
 
