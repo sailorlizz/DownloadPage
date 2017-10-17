@@ -16,11 +16,13 @@ TABLE OF CONTENTS:
   box-sizing: border-box; }
 
 html {
-  background: url(..img/bacgkround.jpg) no-repeat center center fixed;
+  background: url(../img/rain.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  height: 100%;
+  width: 100%; }
 
 header {
   display: inline;
@@ -41,10 +43,16 @@ header {
   margin-left: 100px; }
 
 body h1 {
-  color: #566270;
-  font-size: 1.5em;
+  color: #fff;
+  font-size: 5em;
   text-align: center;
   padding: 20px;
-  font-family: "Questiral", sans-serif; }
+  font-family: "Lato", sans-serif; }
+
+body .tagline {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
