@@ -16,16 +16,29 @@ TABLE OF CONTENTS:
   box-sizing: border-box; }
 
 html {
-  background-color: #333; }
+  background: url(..img/bacgkround.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 header {
   display: inline;
   width: 100%; }
 
+.logo-container {
+  width: 100%;
+  display: flex;
+  padding-top: 20px; }
+
 .logo {
-  background-image: url(".img/Logolightblue.png");
-  height: 500px;
-  width: 100%; }
+  width: 150px;
+  height: 60px;
+  justify-content: center;
+  background-image: url(../img/Logolightblue.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 100px; }
 
 body h1 {
   color: #566270;
