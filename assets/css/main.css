@@ -16,7 +16,7 @@ TABLE OF CONTENTS:
   box-sizing: border-box; }
 
 html {
-  background: url(../img/rain.png) no-repeat center center fixed;
+  background: url(../img/rain.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -54,5 +54,54 @@ body .tagline {
   color: #fff;
   font-size: 1.5em;
   text-align: center; }
+
+body .downloadbutton {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px; }
+
+body .download {
+  background-color: #2EC4B6;
+  border-radius: 15px;
+  height: 47px;
+  width: 127px;
+  justify-content: center;
+  border-style: none;
+  border-color: none; }
+
+body a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em; }
+
+h2 {
+  color: #fff;
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
+  margin-top: 20px; }
+
+.sleep, .sleep2, .sleep3 {
+  width: 14%;
+  margin: 30px; }
+  .sleep .sleep, .sleep2 .sleep, .sleep3 .sleep {
+    margin-left: 100px; }
+  .sleep .sleepbetter, .sleep2 .sleepbetter, .sleep3 .sleepbetter {
+    background-image: url(../img/sleep.png);
+    background-repeat: no-repeat;
+    height: 51px; }
+  .sleep .stayasleep, .sleep2 .stayasleep, .sleep3 .stayasleep {
+    background-image: url(../img/stayasleep.png);
+    background-repeat: no-repeat;
+    height: 59px; }
+  .sleep .wakeup, .sleep2 .wakeup, .sleep3 .wakeup {
+    background-image: url(../img/alarm.png);
+    background-repeat: no-repeat;
+    height: 72px; }
+
+.icons {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  margin-top: 56px; }
 
 /*# sourceMappingURL=main.css.map */
